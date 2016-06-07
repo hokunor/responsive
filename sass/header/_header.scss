@@ -17,7 +17,7 @@
     height: 30px;
   }
 }
-@media  (max-width: 700px) {
+@media  (max-width: 500px) {
   .social {
     @include box($background2,#000);
     display: -webkit-box;
