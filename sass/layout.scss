@@ -32,7 +32,7 @@
   aside { flex: 2; }
   .article    { flex: 8; }
 }
-@media  (max-width: 700px) {
+@media  (max-width: 500px) {
   .body {
     padding:0 20px;
     -webkit-flex-direction: column;
