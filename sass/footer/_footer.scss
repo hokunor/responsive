@@ -1,0 +1,6 @@
+footer {
+  height: 50px;
+  @include box($background2,#000);
+
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+.article-short {
+  h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .article {
+
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    .more-menu {
+      flex: 1 100%;
+      order:10;
+    }
+    header {
+      flex: 1 100%;
+      order:1;
+    }
+    .big-image {
+      flex: 1 100%;
+      order:2;
+    }
+    .content {
+      flex: 1 100%;
+      order:3;
+    };
+  }
+}
